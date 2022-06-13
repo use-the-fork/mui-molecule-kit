@@ -1,0 +1,60 @@
+{
+  "name": "mui-molecules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig-cjs.json",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/use-the-fork/mui-molecule-kit.git",
+    "directory": "packages/mui-molecules"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@storybook/addon-actions": "^6.5.8",
+    "@storybook/addon-essentials": "^6.5.8",
+    "@storybook/addon-interactions": "^6.5.8",
+    "@storybook/addon-links": "^6.5.8",
+    "@storybook/builder-webpack5": "^6.5.8",
+    "@storybook/manager-webpack5": "^6.5.8",
+    "@storybook/react": "^6.5.8",
+    "@storybook/testing-library": "^0.0.13",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "chokidar-cli": "^3.0.0",
+    "core-js": "^3.6.5",
+    "core-js-pure": "^3.6.5",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.9",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.9.2",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.3",
+    "@mui/system": "^5.8.3",
+    "@types/prop-types": "^15.7.5",
+    "chroma-js": "^2.4.2",
+    "classnames": "^2.3.1",
+    "prop-types": "^15.8.1",
+    "react-bem-helper": "^1.4.1",
+    "react-flatpickr": "^3.10.12"
+  }
+}

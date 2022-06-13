@@ -2,6 +2,7 @@ import * as React from 'react';
 import { createTheme, ThemeOptions, ThemeProvider } from '@mui/material/styles';
 
 import { Button as MuiButton, ButtonProps } from '@mui/material';
+import GlassPaper from "../../molecules/GlassPaper/GlassPaper";
 
 declare module '@mui/material/Button' {
     interface ButtonPropsVariantOverrides {
@@ -21,7 +22,7 @@ declare module '@mui/material/styles' {
 
 }
 
-const bootstrapTheme = createTheme({
+const resetTheme = createTheme({
     typography:{
         fontFamily : [
             '-apple-system',
@@ -123,3 +124,5 @@ const bootstrapTheme = createTheme({
         },
     },
 });
+
+export default resetTheme;

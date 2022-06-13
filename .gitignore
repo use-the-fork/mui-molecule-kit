@@ -1,0 +1,8 @@
+node_modules
+lerna-debug.log
+storybook-static
+.idea
+.env
+package-lock.json
+packages/**/src/version.ts
+packages/**/lib/*
